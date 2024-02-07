@@ -1,0 +1,77 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Barra de navegación */
+.navbar {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Carrusel */
+.carousel {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.carousel-item {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  margin-right: 20px;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Cards */
+.card-row {
+  display: flex;
+}
+
+.card {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Sección principal */
+.main-section {
+  padding: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
